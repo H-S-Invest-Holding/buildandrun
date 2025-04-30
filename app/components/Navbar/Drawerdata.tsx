@@ -20,10 +20,8 @@ const Data = () => {
                 key={item.name}
                 href={item.href}
                 className={classNames(
-                  item.current
-                    ? "text-black hover:opacity-100"
-                    : "hover:text-black hover:opacity-100",
-                  "px-2 py-1 text-lg font-normal opacity-75 block"
+        
+                  "px-2 py-1 text-lg text-white opacity-80 hover:opacity-100 font-normal block"
                 )}
                 aria-current={item.current ? "page" : undefined}
               >
@@ -36,21 +34,21 @@ const Data = () => {
                 <Link
                   href="https://www.linkedin.com/"
                   target="_blank"
-                  className="flex items-center justify-center w-8 h-8 text-white bg-gradient-to-r from-brickred-950 to-brickred-500 rounded-full"
+                  className="flex items-center justify-center w-8 h-8 text-white"
                 >
                   <FaLinkedinIn />
                 </Link>
                 <Link
                   href="https://www.facebook.com/"
                   target="_blank"
-                  className="flex items-center justify-center w-8 h-8 text-white bg-gradient-to-r from-brickred-950 to-brickred-500 rounded-full"
+                  className="flex items-center justify-center w-8 h-8 text-white"
                 >
                   <FaFacebookF />
                 </Link>
                 <Link
                   href="https://www.instagram.com/"
                   target="_blank"
-                  className="flex items-center justify-center w-8 h-8 text-white bg-gradient-to-r from-brickred-950 to-brickred-500 rounded-full"
+                  className="flex items-center justify-center w-8 h-8 text-white"
                 >
                   <FaInstagram />
                 </Link>

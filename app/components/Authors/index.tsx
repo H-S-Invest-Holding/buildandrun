@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const Authors = () => {
   return (
-    <div id="authors" className="p-20">
+    <div id="authors" className="p-5 md:p-10 lg:p-20">
       <div className="">
         <span className="opacity-0">.</span>
         <BlurFade inView={true}>
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
-            <div className="col-span-3 relative aspect-[3/5] rounded-lg overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
+            <div className="md:col-span-3 relative aspect-[3/5] rounded-lg overflow-hidden">
               <Image
                 src="/assets/moncef-david-1.jpeg"
                 alt="Moncef et David"
@@ -16,7 +16,7 @@ const Authors = () => {
                 className="object-cover"
               />
             </div>
-            <div className="col-span-6 flex flex-col justify-center items-center">
+            <div className="md:col-span-6 flex flex-col justify-center items-center">
               <h5 className="text-3xl uppercase font-medium text-brickred-600 mb-8">
                 Auteurs
               </h5>
@@ -43,7 +43,7 @@ const Authors = () => {
                 Question(s) de management.
               </p>
             </div>
-            <div className="col-span-3 relative aspect-[3/5] rounded-lg overflow-hidden">
+            <div className="md:col-span-3 relative aspect-[3/5] rounded-lg overflow-hidden">
               <Image
                 src="/assets/moncef-david-2.jpeg"
                 alt="Moncef et David"

@@ -32,7 +32,7 @@ function Navbar() {
     <div
       className='w-full bg-brickred-600 text-white'
     >
-      <div className="flex items-center justify-between px-20">
+      <div className="flex items-center justify-between px-5 md:px-10 lg:px-20">
         <div className="flex items-center pr-5 py-4">
           <Link aria-current="page" className="flex items-center" href="/">
             <h1 className="uppercase font-bold">Build And Run Company</h1>
