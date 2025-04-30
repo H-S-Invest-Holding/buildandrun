@@ -26,9 +26,9 @@ const Hero = () => {
             </BlurFade>
             <BlurFade>
               <p className="text-xl uppercase text-white font-normal mb-8">
-                Le recit d&apos;une{" "}
+                Le récit d&apos;une{" "}
                 <span className="font-extrabold">success story marocaine</span>{" "}
-                raconte par son president
+                raconté par son président
               </p>
             </BlurFade>
             <BlurFade>
