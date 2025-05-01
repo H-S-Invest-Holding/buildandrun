@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Authors from "./components/Authors";
 import Book from "./components/Book";
+import Libraries from "./components/Libraries";
 
 // import Contact from "./components/Contact";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Book />
       <Authors />
+      <Libraries />
     </main>
   );
 }

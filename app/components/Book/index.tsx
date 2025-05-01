@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Book = () => {
   return (
-    <div id="book" className="bg-brickred-50 p-5 md:p-10 lg:p-20">
+    <div id="book" className="p-5 md:p-10 lg:p-20">
       <div className="">
         <span className="opacity-0">.</span>
         <BlurFade inView={true}>
