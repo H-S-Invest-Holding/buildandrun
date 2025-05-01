@@ -14,7 +14,7 @@ const Hero = () => {
                 width={400}
                 height={400}
                 src="/assets/book.png"
-                className="mx-auto w-[200px] md:w-[200px] lg:w-[300px] xl:w-[400px]"
+                className="mx-auto mt-8 w-[200px] md:w-[200px] lg:w-[300px] xl:w-[400px]"
                 alt="Build & Run Company"
               />
             </BlurFade>
