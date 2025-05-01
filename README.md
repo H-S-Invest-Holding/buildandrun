@@ -1,4 +1,4 @@
-# Dislog Group - Build And Run Company
+# Dislog Group - Build & Run Company
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/97b3f5f7-216a-42ea-ab37-c8ff23399d43/deploy-status)](https://app.netlify.com/sites/ensiasje/deploys)
 

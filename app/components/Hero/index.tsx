@@ -15,7 +15,7 @@ const Hero = () => {
                 height={400}
                 src="/assets/book.png"
                 className="mx-auto w-[200px] md:w-[200px] lg:w-[300px] xl:w-[400px]"
-                alt="Build And Run Company"
+                alt="Build & Run Company"
               />
             </BlurFade>
           </div>
@@ -43,13 +43,13 @@ const Hero = () => {
                 href="https://editions-ems.fr/boutique/dislog-group-build-run-company/"
                 target="_blank"
                 type="button"
-                className="px-8 py-4 mb-8 text-sm md:text-sm lg:text-md text-center text-white font-bold bg-brickred-500 border border-white rounded-xl"
+                className="px-8 py-4 mb-8 uppercase text-sm md:text-sm lg:text-md text-center text-white font-bold shadow-md bg-brickred-500 hover:scale-[98%] border border-white rounded-xl"
               >
                 Acheter en ligne
               </Link>
             </BlurFade>
             <BlurFade delay={4}>
-              <div className="flex gap-8">
+              <div className="flex mb-8 gap-8">
                 <Link target="_blank" href="https://dislogroup.com/">
                   <Image
                     width={100}
