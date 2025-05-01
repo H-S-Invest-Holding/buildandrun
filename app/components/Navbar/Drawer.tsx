@@ -28,10 +28,10 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
         <article className="relative w-270 max-w-lg pb-10 flex flex-col space-y-6 h-full">
           <header className="pt-6 pl-6 flex items-center justify-between">
             <Link aria-current="page" className="flex items-center" href="/">
-              <h1 className="uppercase font-bold">Build And Run Company</h1>
+              <h1 className="uppercase font-bold">Build & Run Company</h1>
             </Link>
             <XMarkIcon
-              className="block h-6 w-6 mr-6"
+              className="block cursor-pointer h-6 w-6 mr-6"
               onClick={() => {
                 setIsOpen(false);
               }}

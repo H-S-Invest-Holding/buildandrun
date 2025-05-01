@@ -35,7 +35,7 @@ function Navbar() {
       <div className="flex items-center justify-between px-5 md:px-10 lg:px-20">
         <div className="flex items-center pr-5 py-4">
           <Link aria-current="page" className="flex items-center" href="/">
-            <h1 className="uppercase font-bold">Build And Run Company</h1>
+            <h1 className="uppercase font-bold">Build & Run Company</h1>
           </Link>
         </div>
         <div className="hidden md:flex md:items-center md:justify-center md:gap-5">
@@ -79,7 +79,7 @@ function Navbar() {
           className='block lg:hidden'
         >
           <Bars3Icon
-            className="block h-6 w-6"
+            className="block cursor-pointer h-6 w-6"
             aria-hidden="true"
             onClick={() => setIsOpen(true)}
           />
