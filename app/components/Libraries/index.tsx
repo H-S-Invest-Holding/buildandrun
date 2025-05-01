@@ -34,7 +34,7 @@ const Libraries = () => {
   }, []);
 
   return (
-    <div id="clients" className="p-5 md:p-10 lg:p-20">
+    <div id="libraries" className="p-5 md:p-10 lg:p-20">
       <div className="">
         <span className="opacity-0">.</span>
         <BlurFade inView={true}>
