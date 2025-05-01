@@ -49,7 +49,7 @@ const Libraries = () => {
                     <tr>
                       <th className="text-left px-4 py-2 border font-medium text-sm text-white">Client</th>
                       <th className="text-left px-4 py-2 border font-medium text-sm text-white">Ville</th>
-                      <th className="text-left px-4 py-2 border font-medium text-sm text-white">Statut</th>
+                      {/* <th className="text-left px-4 py-2 border font-medium text-sm text-white">Statut</th> */}
                     </tr>
                   </thead>
                   <tbody>
@@ -61,9 +61,9 @@ const Libraries = () => {
                         <td className="px-4 py-2 border text-sm text-black text-opacity-90">
                           {client.city}
                         </td>
-                        <td className="px-4 py-2 border text-sm text-black text-opacity-90">
+                        {/* <td className="px-4 py-2 border text-sm text-black text-opacity-90">
                           {client.status}
-                        </td>
+                        </td> */}
                       </tr>
                     ))}
                   </tbody>
