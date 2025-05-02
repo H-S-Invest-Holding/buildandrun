@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const year = new Date().getFullYear();
 
@@ -12,7 +12,7 @@ const footer = () => {
             &copy; {year} Dislog Group | Build & Run Company.
           </h4>
           <h4 className="text-offwhite text-sm text-center mt-5 lg:mt-0 lg:text-start font-normal">
-            Made with ❤️ by{" "}
+            Made with 🤍 by{" "}
             <Link href="https://ahmedidrissi.com" className="hover:text-white" target="_blank">
               @ahmedidrissi
             </Link>
@@ -20,25 +20,11 @@ const footer = () => {
           <div className="flex gap-5 mt-5 lg:mt-0 justify-center lg:justify-start">
             <div className="flex gap-2">
               <Link
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/company/groupe-dislog/"
                 target="_blank"
-                className="flex items-center justify-center w-8 h-8 text-offwhite hover:text-white rounded-full bg-transparent"
+                className="flex items-center justify-center gap-2 text-offwhite hover:text-white bg-transparent"
               >
-                <FaLinkedinIn />
-              </Link>
-              <Link
-                href="https://www.facebook.com/"
-                target="_blank"
-                className="flex items-center justify-center w-8 h-8 text-offwhite hover:text-white rounded-full bg-transparent"
-              >
-                <FaFacebookF />
-              </Link>
-              <Link
-                href="https://www.instagram.com/"
-                target="_blank"
-                className="flex items-center justify-center w-8 h-8 text-offwhite hover:text-white rounded-full bg-transparent"
-              >
-                <FaInstagram />
+                <FaLinkedinIn /> Dislog Group
               </Link>
             </div>
           </div>

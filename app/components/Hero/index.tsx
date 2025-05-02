@@ -43,7 +43,7 @@ const Hero = () => {
                 href="https://editions-ems.fr/boutique/dislog-group-build-run-company/"
                 target="_blank"
                 type="button"
-                className="px-8 py-4 mb-8 uppercase text-sm md:text-sm lg:text-md text-center text-white font-bold shadow-md bg-brickred-500 hover:scale-[98%] border border-white rounded-xl"
+                className="px-4 md:px-8 py-2 md:py-4 mb-8 uppercase text-sm md:text-sm lg:text-md text-center text-white font-bold shadow-md bg-brickred-500 hover:scale-[98%] border border-white rounded-xl"
               >
                 Acheter en ligne
               </Link>
@@ -54,6 +54,7 @@ const Hero = () => {
                   <Image
                     width={100}
                     height={100}
+                    className="max-w-[80px] md:max-w-full"
                     src="/assets/dislog-logo.png"
                     alt="Dislog Group"
                   />
@@ -62,6 +63,7 @@ const Hero = () => {
                   <Image
                     width={80}
                     height={80}
+                    className="max-w-[60px] md:max-w-full"
                     src="/assets/ems-logo.png"
                     alt="editions ems"
                   />

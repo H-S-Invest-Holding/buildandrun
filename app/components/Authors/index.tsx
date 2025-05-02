@@ -25,7 +25,7 @@ const Authors = () => {
               </h1>
               <p className="font-normal text-md text-black text-center text-opacity-90 mb-8">
                 Créateur du groupe H&S Invest Holding qui contrôle plusieurs
-                entreprises dont DISLOG Group, Moncef Belkhayat s&apos;emploie au
+                entreprises dont Dislog Group, Moncef Belkhayat s&apos;emploie au
                 développement de son groupe au Maroc et à l&apos;international tout
                 en étant au contact des jeunes Marocains du monde les aidant à
                 réaliser leurs projets.

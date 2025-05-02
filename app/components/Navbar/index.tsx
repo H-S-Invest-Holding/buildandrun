@@ -29,9 +29,7 @@ function Navbar() {
   }, []);
 
   return (
-    <div
-      className='w-full bg-brickred-600 text-white'
-    >
+    <div className="w-full bg-brickred-600 text-white">
       <div className="flex items-center justify-between px-5 md:px-10 lg:px-20">
         <div className="flex items-center pr-5 py-4">
           <Link aria-current="page" className="flex items-center" href="/">
@@ -53,31 +51,16 @@ function Navbar() {
         <div className="hidden lg:block pl-5 py-5">
           <div className="flex gap-2">
             <Link
-              href="https://www.linkedin.com/"
+              href="https://editions-ems.fr/boutique/dislog-group-build-run-company/"
               target="_blank"
-              className='flex items-center justify-center w-8 h-8 text-white rounded-full bg-transparent'
+              type="button"
+              className="px-4 py-2 uppercase text-sm md:text-sm lg:text-md text-center text-white font-bold shadow-md bg-brickred-500 hover:scale-[98%] border border-white rounded-xl"
             >
-              <FaLinkedinIn />
-            </Link>
-            <Link
-              href="https://www.facebook.com/"
-              target="_blank"
-              className='flex items-center justify-center w-8 h-8 text-white rounded-full bg-transparent'
-            >
-              <FaFacebookF />
-            </Link>
-            <Link
-              href="https://www.instagram.com/"
-              target="_blank"
-              className='flex items-center justify-center w-8 h-8 text-white rounded-full bg-transparent'
-            >
-              <FaInstagram />
+              Acheter
             </Link>
           </div>
         </div>
-        <div
-          className='block lg:hidden'
-        >
+        <div className="block lg:hidden">
           <Bars3Icon
             className="block cursor-pointer h-6 w-6"
             aria-hidden="true"

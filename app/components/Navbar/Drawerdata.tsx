@@ -32,7 +32,7 @@ const Data = () => {
             <div className="p-2">
               <div className="flex gap-2">
                 <Link
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/company/groupe-dislog/"
                   target="_blank"
                   className="flex items-center justify-center w-8 h-8 text-white"
                 >
