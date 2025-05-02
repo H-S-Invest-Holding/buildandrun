@@ -20,7 +20,6 @@ const Data = () => {
                 key={item.name}
                 href={item.href}
                 className={classNames(
-        
                   "px-2 py-1 text-lg text-white opacity-80 hover:opacity-100 font-normal block"
                 )}
                 aria-current={item.current ? "page" : undefined}
@@ -32,25 +31,12 @@ const Data = () => {
             <div className="p-2">
               <div className="flex gap-2">
                 <Link
-                  href="https://www.linkedin.com/company/groupe-dislog/"
+                  href="https://editions-ems.fr/boutique/dislog-group-build-run-company/"
                   target="_blank"
-                  className="flex items-center justify-center w-8 h-8 text-white"
+                  type="button"
+                  className="px-4 py-2 uppercase text-sm md:text-sm lg:text-md text-center text-white font-bold shadow-md bg-brickred-500 hover:scale-[98%] border border-white rounded-xl"
                 >
-                  <FaLinkedinIn />
-                </Link>
-                <Link
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  className="flex items-center justify-center w-8 h-8 text-white"
-                >
-                  <FaFacebookF />
-                </Link>
-                <Link
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  className="flex items-center justify-center w-8 h-8 text-white"
-                >
-                  <FaInstagram />
+                  Acheter
                 </Link>
               </div>
             </div>
