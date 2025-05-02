@@ -28,7 +28,9 @@ const Hero = () => {
                 Dislog Group - Build & Run Company
               </TypingAnimation>
               <BlurFade delay={2}>
-                <h2 className="text-lg md:text-2xl lg:text-3xl text-white mb-6">The Moroccan dream</h2>
+                <h2 className="text-lg md:text-2xl lg:text-3xl text-white mb-6">
+                  The Moroccan dream
+                </h2>
               </BlurFade>
             </BlurFade>
             <BlurFade delay={3}>
@@ -38,38 +40,42 @@ const Hero = () => {
                 raconté par son président
               </p>
             </BlurFade>
-            <BlurFade delay={4}>
-              <Link
-                href="https://editions-ems.fr/boutique/dislog-group-build-run-company/"
-                target="_blank"
-                type="button"
-                className="px-4 md:px-8 py-2 md:py-4 mb-8 uppercase text-sm md:text-sm lg:text-md text-center text-white font-bold shadow-md bg-brickred-500 hover:scale-[98%] border border-white rounded-xl"
-              >
-                Acheter en ligne
-              </Link>
-            </BlurFade>
-            <BlurFade delay={4}>
-              <div className="flex mb-8 gap-8">
-                <Link target="_blank" href="https://dislogroup.com/">
-                  <Image
-                    width={100}
-                    height={100}
-                    className="max-w-[80px] md:max-w-full"
-                    src="/assets/dislog-logo.png"
-                    alt="Dislog Group"
-                  />
+            <div className="mb-8">
+              <BlurFade delay={4}>
+                <Link
+                  href="https://editions-ems.fr/boutique/dislog-group-build-run-company/"
+                  target="_blank"
+                  type="button"
+                  className="px-4 md:px-8 py-2 md:py-4 uppercase text-sm md:text-sm lg:text-md text-center text-white font-bold shadow-md bg-brickred-500 hover:scale-[98%] border border-white rounded-xl"
+                >
+                  Acheter en ligne
                 </Link>
-                <Link target="_blank" href="https://editions-ems.fr/">
-                  <Image
-                    width={80}
-                    height={80}
-                    className="max-w-[60px] md:max-w-full"
-                    src="/assets/ems-logo.png"
-                    alt="editions ems"
-                  />
-                </Link>
-              </div>
-            </BlurFade>
+              </BlurFade>
+            </div>
+            <div className="mb-8">
+              <BlurFade delay={4}>
+                <div className="flex gap-8">
+                  <Link target="_blank" href="https://dislogroup.com/">
+                    <Image
+                      width={100}
+                      height={100}
+                      className="max-w-[80px] md:max-w-full"
+                      src="/assets/dislog-logo.png"
+                      alt="Dislog Group"
+                    />
+                  </Link>
+                  <Link target="_blank" href="https://editions-ems.fr/">
+                    <Image
+                      width={80}
+                      height={80}
+                      className="max-w-[60px] md:max-w-full"
+                      src="/assets/ems-logo.png"
+                      alt="editions ems"
+                    />
+                  </Link>
+                </div>
+              </BlurFade>
+            </div>
           </div>
         </div>
       </div>
