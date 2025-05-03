@@ -16,7 +16,6 @@ const Libraries = () => {
     const loadCSV = async () => {
       const res = await fetch("/assets/libraries.csv");
       const text = await res.text();
-
       const rows = text.trim().split("\n");
       const data: Client[] = rows.slice(1).map((row) => {
         const values = row.split(",").map((v) => v.trim());
@@ -26,7 +25,6 @@ const Libraries = () => {
           status: values[2],
         };
       });
-
       setClients(data);
     };
 
