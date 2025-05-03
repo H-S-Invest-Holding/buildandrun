@@ -32,7 +32,7 @@ const Authors = () => {
               </p>
               <p className="font-normal text-md text-black text-center text-opacity-90 mb-8">
                 Après sa carrière politique, il est retourné dans le secteur
-                privé au sein de H&S Invest Holding, un groupe d'investissement
+                privé au sein de H&S Invest Holding, un groupe d&apos;investissement
                 diversifié actif dans les secteurs de la santé, de
                 l&apos;hygiène, de l&apos;alimentaire, de la logistique, de
                 l&apos;immobilier et des médias. Il demeure une figure clé du
@@ -82,7 +82,7 @@ const Authors = () => {
               </p>
               <p className="font-normal text-md text-black text-opacity-90">
                 Après sa carrière politique, il est retourné dans le secteur
-                privé au sein de H&S Invest Holding, un groupe d'investissement
+                privé au sein de H&S Invest Holding, un groupe d&apos;investissement
                 diversifié actif dans les secteurs de la santé, de
                 l&apos;hygiène, de l&apos;alimentaire, de la logistique, de
                 l&apos;immobilier et des médias. Il demeure une figure clé du
