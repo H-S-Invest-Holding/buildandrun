@@ -3,9 +3,8 @@ import Image from "next/image";
 
 const Book = () => {
   return (
-    <div id="book" className="p-5 md:p-10 lg:p-20">
+    <div id="book" className="px-5 py-8 md:p-10 lg:p-20">
       <div className="">
-        <span className="opacity-0">.</span>
         <BlurFade inView={true}>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
             <div className="md:col-span-5 relative aspect-[3/4] rounded-lg overflow-hidden">
@@ -17,8 +16,8 @@ const Book = () => {
               />
             </div>
             <div className="md:col-span-7 flex flex-col justify-center">
-              <h5 className="text-3xl uppercase font-medium text-brickred-600 mb-8">
-                A Propos du livre
+              <h5 className="text-xl sm:text-2xl md:text-3xl text-center md:text-start uppercase font-medium text-brickred-600 mb-5 md:mb-8">
+              ☙ A Propos du livre ☙
               </h5>
               <p className="font-normal text-md text-black text-opacity-90 mb-5">
                 « Au Maroc on peut y arriver » ainsi commence ce livre qui fait
