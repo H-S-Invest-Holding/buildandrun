@@ -3,8 +3,6 @@ import Authors from "./components/Authors";
 import Book from "./components/Book";
 import Libraries from "./components/Libraries";
 
-// import Contact from "./components/Contact";
-
 export default function Home() {
   return (
     <main>
