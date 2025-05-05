@@ -16,7 +16,6 @@ const Libraries = () => {
     const loadCSV = async () => {
       const res = await fetch("/assets/libraries.csv");
       const text = await res.text();
-
       const rows = text.trim().split("\n");
       const data: Client[] = rows.slice(1).map((row) => {
         const values = row.split(",").map((v) => v.trim());
@@ -26,7 +25,6 @@ const Libraries = () => {
           status: values[2],
         };
       });
-
       setClients(data);
     };
 
@@ -34,14 +32,13 @@ const Libraries = () => {
   }, []);
 
   return (
-    <div id="libraries" className="p-5 md:p-10 lg:p-20">
+    <div id="libraries" className="px-5 py-8 md:p-10 lg:p-20">
       <div className="">
-        <span className="opacity-0">.</span>
         <BlurFade inView={true}>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
             <div className="md:col-span-12">
-              <h5 className="text-3xl uppercase font-medium text-brickred-600 mb-8">
-                Liste des librairies
+              <h5 className="text-xl sm:text-2xl md:text-3xl text-center md:text-start uppercase font-medium text-brickred-600 mb-5 md:mb-8">
+              Liste des librairies
               </h5>
               <div className="overflow-auto rounded-lg shadow">
                 <table className="min-w-full border border-gray-300 bg-white">

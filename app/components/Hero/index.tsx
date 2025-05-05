@@ -6,7 +6,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="bg-brickred-600">
-      <div className="min-h-[91vh] flex flex-col justify-center items-center">
+      <div className="min-h-[92vh] flex flex-col justify-center items-center">
         <div className="w-full px-10 md:px-20 grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-12">
           <div className="col-span-6">
             <BlurFade>
