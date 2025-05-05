@@ -8,7 +8,7 @@ const Authors = () => {
         <BlurFade inView={true}>
           <div className="grid grid-cols-1 md:grid-cols-12 items-center gap-10">
             <h5 className="md:col-span-12 text-center text-xl sm:text-2xl md:text-3xl uppercase font-medium text-brickred-600 -mb-4 md:mb-0">
-            ☙ Auteurs ☙
+            Auteurs
             </h5>
             {/* >=xl view */}
             <div className="hidden xl:block col-span-3 relative aspect-[3/5] rounded-lg overflow-hidden">

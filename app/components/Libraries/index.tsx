@@ -38,7 +38,7 @@ const Libraries = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
             <div className="md:col-span-12">
               <h5 className="text-xl sm:text-2xl md:text-3xl text-center md:text-start uppercase font-medium text-brickred-600 mb-5 md:mb-8">
-              ☙ Liste des librairies ☙
+              Liste des librairies
               </h5>
               <div className="overflow-auto rounded-lg shadow">
                 <table className="min-w-full border border-gray-300 bg-white">

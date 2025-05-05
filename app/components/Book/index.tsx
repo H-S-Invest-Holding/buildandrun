@@ -17,7 +17,7 @@ const Book = () => {
             </div>
             <div className="md:col-span-7 flex flex-col justify-center">
               <h5 className="text-xl sm:text-2xl md:text-3xl text-center md:text-start uppercase font-medium text-brickred-600 mb-5 md:mb-8">
-              ☙ A Propos du livre ☙
+              A Propos du livre
               </h5>
               <p className="font-normal text-md text-black text-opacity-90 mb-5">
                 « Au Maroc on peut y arriver » ainsi commence ce livre qui fait
