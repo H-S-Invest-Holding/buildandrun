@@ -26,6 +26,16 @@ html {
     width: 100%;
 }
 
+.custom-swiper .swiper-pagination-bullet {
+    background-color: #bc3c49 !important; /* Tailwind orange-500 */
+    opacity: 0.5;
+}
+  
+.custom-swiper .swiper-pagination-bullet-active {
+    background-color: #bc3c49 !important; /* Tailwind orange-600 */
+    opacity: 1;
+}
+
 hr {
     border-color: rgba(196, 196, 196, 0.65);
 }
